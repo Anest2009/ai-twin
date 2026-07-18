@@ -18,16 +18,7 @@ export default defineConfig(async ({ command }) => {
     const { nitro } = await import("nitro/vite");
     plugins.push(
       nitro({
-        preset: "cloudflare-module",
-        output: {
-          dir: "dist",
-          serverDir: "dist/server",
-          publicDir: "dist/client",
-        },
-        cloudflare: {
-          nodeCompat: true,
-          deployConfig: true,
-        },
+        preset: "vercel",
       })
     );
   }
