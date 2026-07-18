@@ -86,9 +86,9 @@ function Nav() {
       >
         <a
           href="#top"
-          className="font-instrument text-2xl tracking-tight text-[#1a1a1a] md:text-[1.7rem]"
+          className="flex items-center"
         >
-          Bliss
+          <img src="/images/bliss-black.png" alt="Bliss" className="h-6 w-auto md:h-8" />
         </a>
         <div className="hidden items-center gap-8 text-sm md:flex">
           <a href="#top" className="text-[#1a1a1a] transition-colors hover:text-black">
@@ -1152,8 +1152,8 @@ function Footer() {
         {/* Footer links */}
         <div className="grid grid-cols-2 gap-10 py-20 md:grid-cols-4">
           <div className="col-span-2 md:col-span-1">
-            <span className="font-instrument text-3xl tracking-tight text-[#1a1a1a]">
-              Bliss
+            <span className="flex items-center">
+              <img src="/images/bliss-purple.png" alt="Bliss" className="h-8 w-auto md:h-10" />
             </span>
             <p className="mt-4 max-w-xs font-inter text-sm leading-relaxed text-[#1a1a1a]/55">
               A culturally intelligent, private AI twin for your mind — available

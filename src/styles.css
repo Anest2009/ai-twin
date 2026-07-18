@@ -3,6 +3,61 @@
 @source "../src";
 @import "tw-animate-css";
 
+@font-face {
+  font-family: 'Recoleta';
+  src: url('/fonts/Recoleta-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Recoleta';
+  src: url('/fonts/Recoleta-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Recoleta';
+  src: url('/fonts/Recoleta-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Recoleta';
+  src: url('/fonts/Recoleta-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mori';
+  src: url('/fonts/PPMori-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mori';
+  src: url('/fonts/PPMori-RegularItalic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mori';
+  src: url('/fonts/PPMori-SemiBold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
 
 @custom-variant dark (&:is(.dark *));
 
@@ -38,8 +93,8 @@
   --color-ink: var(--ink);
   --font-display: "Recoleta", "Playfair Display", ui-serif, Georgia, serif;
   --font-sans: "Mori", "Inter", ui-sans-serif, system-ui, sans-serif;
-  --font-instrument: "Instrument Serif", serif;
-  --font-inter: "Inter", sans-serif;
+  --font-instrument: "Recoleta", "Instrument Serif", serif;
+  --font-inter: "Mori", "Inter", sans-serif;
 
   --animate-fade-rise: fade-rise 0.8s ease-out forwards;
   --animate-fade-rise-delay: fade-rise 0.8s ease-out 0.2s forwards;
