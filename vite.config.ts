@@ -35,3 +35,5 @@ export default defineConfig(async ({ command }) => {
     },
   };
 });
+
+// Test comment for github push
